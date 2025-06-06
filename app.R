@@ -1,3 +1,4 @@
+options(repos = c(CRAN = "https://cloud.r-project.org"))
 if (!requireNamespace("stopwords", quietly = TRUE)) {
   install.packages("stopwords")
 }
