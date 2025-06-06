@@ -1,3 +1,7 @@
+if (!requireNamespace("stopwords", quietly = TRUE)) {
+  install.packages("stopwords")
+}
+
 library(shiny)
 library(keras3)
 library(recipes)
@@ -8,7 +12,6 @@ library(stopwords)
 library(purrr)
 library(ggplot2)
 library(textrecipes)
-#library(shinythemes)
 library(bslib)
 
 
